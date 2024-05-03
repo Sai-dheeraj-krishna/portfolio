@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>My Website</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>S</span>ai <span>D</span>heeraj</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#services" data-after="Service">Services</a></li>
+            <li><a href="#projects" data-after="Projects">IT Hub</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>My Name is <span></span></h1>
+        <h1>Sai Dheeraj Krishna <span></span></h1>
+        <a href="#projects" type="button" class="cta">Portfolio</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Service Section -->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title">Serv<span>i</span>ces</h1>
+        <p>
+          "Providing a range of cutting-edge services, we specialize in delivering innovative solutions tailored to meet your unique needs. From web development and design to photography and video editing, our services are crafted to elevate your digital presence and enhance your visual storytelling."</p>
+      </div>
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="icon"><img src="data:image/png;base64,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"></div>
+          <h2>Web Design (Frontend Dev)</h2>
+          <p>
+            Transforming ideas into visually stunning and functional websites is my passion. With expertise in HTML, CSS, and JavaScript, I create responsive and user-friendly interfaces. Whether you need a static site, dynamic web application, or an interactive landing page, I bring your vision to life with clean, efficient code.</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADP0lEQVR4nO1YS08TURTu/9Cl+kNmOhATKywg4dHSSZi2WGQaKUQ7nbEkJkyZ0kTLBt0UTMQHIZGNC4VEE03EFd25gr22REjKIy6OOZcwvbctzLS0UzVzki+ZtDMn33ce9557PR7XXHPNNddc+99MSqWvBjVjNahlDkQtA51EUMscBDVjTVTnrtsnrxqlThMXq4WoRmlEyV6xFICR7zRZ8VwYr20IaG3ZBBI69MlJ8EkxuBmMQtdwmACffVIM+mQFAolZu+X0y1JA9Udr33/XhSVxRYeesSkQhkIgDEmWuB2+B4EHuqVfRwQMTD6Ebn/YFnGBAmZmIJ7qrAAsiWpi3lgGeH0D+Ge7wD3fI+Cf7gKf3gBBNmre75eV1gloBBh5hkxYAX6hANyL8oXgcwUQQgnm2/My0TYB2Kx02XjvpoFfKlqS585ELBXBO64z5YQ+HRPQOxZnI1+HvHelDL43p8BnrlpI/id4pUomesemnBGAkaJXGz63zRDzrZZhevMYsl9P4PG3U+Dz1OYREcNkYqFAlVKoJgttEYBNRzcsTWjw7SFktyrEq5HdOiHvMJmaqDR2fyzZfgG4IZnRT2+aRLpfseSTH48h8u6IQP10zIjAd00B+gfTH/puuwDcVU0BuFRSNf/o82npBNbZKCMC64fkv9kvJyBQPYFL7Jk/9N12AfTqwy3vsTW9Uoaul7XkzyAg8eqGXt4z/aHvjgpoCsulynLqjzhQQmL9EmoaizuVEhKjDjexvnFpAfzse2ebmJl/ZOPSArzynOmvz4llFOd5ZiN7st189HOVjaxrWHJmI0P00KPE6H3g8j8aF5Dv0ChBsqDoZAAzd+RxnRBqiPw4Ncz5IzCiODjMIQbjM+wJLJQAztY4vc1EnozTkw6P0/XmIjMbEwYZD3B5JPsEYnGH/EY3rNm4Mtu4jgpA4GGELifbR0p/BAbiMxf6dkQAYkRJQ++dabKS2CHfE4nXrfnGBajGfqtEkOZO6GQkvoXXKmKUjB0IfPZJMeiXk3VPXk1fq5BrvBYKaCWCmrFqKSCQmr8hapniX0deNUqjqew1jx3DO0i8xmt1OTUF1djHyNsm75prrrnmmmuef8j+AGERdMdCzFn1AAAAAElFTkSuQmCC"></div>
+          <h2>Photography</h2>
+          <p>Capturing moments that tell a story is what I do best. Through my lens, I strive to immortalize emotions and experiences. Whether it's portraits, events, or product shots, I bring a keen eye for detail and composition to every photograph.</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="data:image/png;base64,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"></div>
+          <h2>Photo Editing</h2>
+          <p>Enhancing the visual impact of images is an art I've mastered. From color correction and retouching to creative manipulation, I elevate your photos to the next level. Your vision combined with my editing skills ensures the perfect balance of aesthetics and authenticity.</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAABq0lEQVR4nO2XPUjDQBTHn0tbRCfBXR0EV11vE1HBpUFXcXFzbNUhNKCLkxQclKrg4uAi1loKFcTBRXRSKIKb1EaKuuREpycJKGmsoR+Xa0LeH/7rvfu9j3scAIlEIvlSapWj3YGLrxJAe1JDXwE4LeGPu3Klmn6UYbDFt9y0CIBTBaCdFmIPVbRb9gwwR3wCUKkCXG4LAT2jnJ5RCPUmZrQHOC0yFupNDEEfYggDwOPGEN6lx/DqYA7PTlbw8DKDmv4WHID79ChWV6HGt9vjqOmvnQdgDQyxmXkngCgIJuM/YLZNPQAREEwGgNnz/wGYvtmZaHkmmAwATX/H68y0K0SrlWCy9oBXECBzD3gBAbIX2VrlBZ/S/a4Q5c0+XK88+xNAFQwB7QL8ObBB4RFEjCJk+Tmgiwt4ATEv4gs5QASE2kmApiB2h3t9CWBB5CHKi5B3g/jYHyzjfCrmRXwhcq1Erhv54gJyJVGoB+Eb1YX4vXzSsqEkj8HPqoFwXj6e+OLx5Rnwu3BrpMfYGyg7Mv9pKMkpCIpwNhUxlEQ2UJkHh3ByKWr2vIjMfwP9khmzw7bqKwAAAABJRU5ErkJggg=="></div>
+          <h2>Video Editing</h2>
+          <p>Seamless storytelling through video is my forte. I bring your footage to life, creating engaging and impactful videos. From cutting-edge transitions to polished final edits, I ensure your message is conveyed effectively and aesthetically.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Service Section -->
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">It <span>hub</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>CSIT HUB</h1>
+            <h2>Coordinator of IT HUB</h2>
+            <p>"Welcome to IT HUB, where technology meets compassion! As the Coordinator, I lead a student organization dedicated to helping those in need. Beyond that, I'm passionate about motivating my fellow students to embrace the power of technology. Join us in this journey of combining innovation with heart, as we create a brighter future for everyone. 💻🌐 #ITHUB #TechForGood #MotivationInTech"</p>
+          </div>
+          <div class="project-img">
+            <img src="https://res.cloudinary.com/daglwboa8/image/upload/v1704385029/hub_logo_snf0xl.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Event 1</h1>
+            <h2>seminar on unleash the power of Ai</h2>
+            <p>The Seminar on "Navigating the AI Frontier: Engineering Tomorrows World" by Sri.Swamy Sriperumbudur, Founder & CEO of PCG Global.
+              # unleashing the power of AI 👨‍💻</p>
+          </div>
+          <div class="project-img">
+            <img src="https://res.cloudinary.com/daglwboa8/image/upload/v1704284362/Ai_seminar_x2ymuh.jpg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Event 2</h1>
+            <h2>Food distribution</h2>
+            <p>"Spreading warmth and nourishment in every meal, our team at IT HUB is dedicated to food distribution at old age homes. We believe in making a difference by bringing smiles and comfort to the elderly, one plate at a time. Join us in our mission to serve with compassion.❤️ </p>
+          </div>
+          <div class="project-img">
+            <img src="https://res.cloudinary.com/daglwboa8/image/upload/v1704284364/food_distribution_em9ntr.jpg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Event 3</h1>
+            <h2>Blood donation</h2>
+            <p>"At IT HUB, we're hosting a life-saving event – a Blood Donation Camp. Join us in giving the gift of life. Your donation can make a significant impact. Let's come together to save lives. 💉❤️ #IThubCares #BloodDonation"</p>
+          </div>
+          <div class="project-img">
+            <img src="https://res.cloudinary.com/daglwboa8/image/upload/v1704284366/BLOOD_DONATION_CAMP_fz7i7m.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Event 4</h1>
+            <h2>Computer Awareness Program</h2>
+            <p>"Empowering the future! IT HUB is organizing a Computer Awareness Program for 10th-grade students at ZPHS. We're dedicated to enhancing digital literacy and fostering a passion for technology among the next generation. Join us as we equip students with essential computer skills for a tech-savvy future. 💻📚 #IThubEducation #DigitalLiteracy"</p>
+          </div>
+          <div class="project-img">
+            <img src="https://res.cloudinary.com/daglwboa8/image/upload/v1704284361/computer_awareness_program_bitaui.jpg" alt="img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="https://res.cloudinary.com/daglwboa8/image/upload/v1704385864/WhatsApp_Image_2024-01-04_at_22.00.39_08599160_gqwb6e.jpg" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>me</span></h1>
+        <h2>Front End Developer</h2>
+        <p>"As a passionate Frontend Developer, I bring creativity and precision to every line of code. With a keen eye for design and user experience, I specialize in crafting visually appealing and responsive websites. Committed to staying at the forefront of web development trends, I thrive on turning ideas into seamless, engaging digital experiences. Let's build the future of the web together!"</p>
+        <!-- <a href="#" class="cta">Download Resume</a> -->
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contact <span>info</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+91 9700524789</h2>
+            <!-- <h2>+1 234 123 1234</h2> -->
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>saidheeraj267@gmail.com</h2>
+            <h2>saidheeraj367@gmail.com</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>Koppuravuru, Peddakakani, Guntur</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>S</span>ai <span>D</span>heeraj</h1>
+      </div>
+      <h2>Social Media</h2>
+      <div class="social-icon">
+
+        <div class="social-item">
+          <a href="www.linkedin.com/in/sai-dheeraj-krishna-suda-62321a282"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFxUlEQVR4nO2Z608UVxTAsa8/wFoK2PRDm9jWNAFsTR8KlWA/8BC0PrpsAVG0LYvU8iqurfJYhVVAykNjixTuEGvkQx8mGOiixthald2QWiuPCDOLqK3ALpustswdPM0Z3S3dXVhmdtb2w57kBDKzc+79zbn3nHvOBAUFJCABCcj/QaxdoUtshpA8qyEs8qEODFD8CLDNL1K2ZY3AMdsEM1MkKsdsw2t4D3/jzc6EIbQdISYModTWFQoThlDe2hkW4d/JG794nA6RZIFl2ijLjAkcA7Mp/oay5Dg1tybhszPZtXWF5COEUw0hef4BuNL2hMCRHMoxw94mPyMUx5jRW56ArIawSPSEwyOWUwvDFYfgza1RlGOuygVw9xL5jTeT5W4wnWERNkNIruIQADBPYMmnlCWCUhDTYKjAMlocQ9FJu0O0PUpZckRpAA9AjTjW9LEty9cmWqLX2ixR6xN8hIB5OIC/IYR/AgIz3TMIgCDj0e/Ez3nSttjVT44tX5s78fr6+Y5ruJxcB7vT/xUYmovg8N4cOLRHnuKzXS1FYO9rcgdiyQ6f3v549Po8S/Q6QBjnxnbZE/2nqyElKRki06rh2azv4ZnsdlmKz0amVsGGuDjRpuue4TnmTdkg6Alr1LqP8S+GWNfohJ5AiOACIwQXmmDp5nqI/2AfJErQVTl1kNQ4BIv1AzB/Zx8EF3SDOikZ7g40uUWz2XLNnAXzhKvLcTmhJxBCvbkQbo70wpRgkaWUWmBX+7AIE55aDR0tWuc4UzdOiCqwRON7xvaQ7A6VacQl8XJaHYxclw/h0El+HJ7XDYg2G0qz3UAoRzifvEJZZrWniPL5bo24vqNTdT5DOHTFfpNoE217jGIcSfQBhByfFSStzG1CA1e74dTJb0HgxySBrMzQeQP5WhYEnlApS0algFB+FNaoP4LFmc3wTdsxSSAxlV48wjJjczk1u4Ow5KWZktVsHtnyfgG8nVEGPZfOSQKJzW2ZFQQVhlpfkAzyoJ6QBMJPjsLB2lqo2lcNF346A2e6OqBCXwM1B+rgwo+nQVdaAS1NR+Cu/ZbkpSWgV8ytSYqEXW8gdtsIrNxULobl4hI9FGwvFP9ftrkGlqXrYUHRZVi4/TRs1Wjd9lBs/lGvIALHZEsHYVt3ygGJ3VIp5gQHiJjsinog57NayPhQC0/nnYfnNN/BubOGf4OUGLyDsIxWNsjUrZMwNX4RBPNR2SArshvhzzu3YKjfBK+lV8KCol/g0OFGyUtLkAWC9TZusKm/AEWEkQkSqzko3h/7/Rq8lb5HvFZZVSsdhJOxtByb/Z6dFWHQM76CWEeHICajQjYIlbPZ5YRfbyA26zDEZu6XDQJywi9vUr3K9xbbhWsNksKvXrcXSneXiaH3VMcJKC/RwQH9Puf98rJyKN6lg4s/n5Wa2f+QXAJPGjcs4U0plJpSgJrUIAwenHNClKt+OaLwRlX+fYgH2lfm90Pjyo3eQFql1+qTl1SRvEnFIwRvUt8TBhtmPMZfH/b9GD8y3AsRGfVux/hp3uAAzjwmGUSE6VFH8CZVLu3XV6Ax+/kYp2GssbE8farQBCmbCuGGDzXJzet9kJpZKNoKT62GTrLTU/7ICvJV8E0ILLk83TA2CrDGxvIUJ/DKpnqI37gbEjJ2SVJ8Zmlmg2gDbani4sUy2gXiiiKlLgp2AMXm2bQBsFGANTa+RV+bD+HvVcG7cfGemw8seSNIScHjgavLsVHQ2aKFuuIsqNZulaX47A9E6+4JTtRPgpSW/6BB9yU1qhN5k8pGjaoEf7RMGx8GBOBYRlWCCNKdMvfuosQm9g7XPaMMAKF+WU6zCXYAMaIoBsKSXxXf2HMVDIvYPMOEJdsL+CzLZCkWYuU2t52NPDOzinLkGOWY294nz9zGsxP2qmRnbCWb2zPtIRgki+5/UyQa58dQ9Bx+Mxwki/z+IUdKc9vrjwMSkIAEJMgP8jdOQvYaqLQp7wAAAABJRU5ErkJggg=="></a>
+        </div>
+
+        <div class="social-item">
+          <a href=""><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+        </div>
+      </div>
+      <p>Copyright © 2024 Dheeraj. All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+</body>
+
+</html>
